@@ -1,16 +1,4 @@
-def divisor(a, b):
-    
-    print(a//b)
-    print(a/b)
 
-if __name__ == '__main__':
-    a = int(input())
-    b = int(input())
-    divisor(a, b)
-
-
-
-#-------------------------------------------------------------------------------------------------------------------
 '''
 Task
 The provided code stub reads two integers. a and b. from STDIN.
@@ -24,3 +12,20 @@ Print:
 0.6
 
 '''
+
+#-------------------------------------------------------------------------------------------------------------------
+
+
+def divisor(a, b):
+    
+    print(a//b)
+    print(a/b)
+
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    divisor(a, b)
+
+
+
+
