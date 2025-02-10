@@ -1,3 +1,5 @@
+#https://codeforces.com/gym/586964/problem/D
+
 from math import sqrt
 
 if __name__ == "__main__":

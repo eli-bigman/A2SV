@@ -1,3 +1,7 @@
+#https://codeforces.com/gym/586964/problem/E
+
+
+
 def sum_dict(arr):
     res = {}
     total = sum(arr)

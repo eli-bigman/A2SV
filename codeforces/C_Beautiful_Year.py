@@ -1,4 +1,4 @@
-
+#https://codeforces.com/gym/586964/problem/C
 
 if __name__ == "__main__":
     year = int(input())

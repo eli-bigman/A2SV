@@ -1,4 +1,4 @@
-
+#https://codeforces.com/gym/586964/problem/A
 def chat_or_not(strs):
     if len(set(strs)) % 2 == 0:
         print("CHAT WITH HER!")
