@@ -23,11 +23,11 @@ n is odd and odd numbers are weird. so print Wei rd.
 #-------------------------------------------------------
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
+# import math
+# import os
+# import random
+# import re
+# import sys
 
 def weird_or_not(n):
     if n % 2 != 0:
