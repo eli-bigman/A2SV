@@ -38,21 +38,12 @@ if __name__ == "__main__":
     for _ in range(n):
         t = int(input())
         arr = list(map(int, input().split()))
-        # res = not_div(arr)
-        # ans = ""
-        # print(*res)
-        # # for i in res:
-        # #     ans+= str(i)+ " "
-
-        # # print(ans)
-        op = 0
-        i = 0
+        for i in range(t):
+            if arr[i] == 1:
+                arr[i] += 1
         
-        while arr[i] % arr[i+1] == 0 and i < len(arr):
-            arr[i]+= 1
-            i+=1
-            op+=1
+        for i in range(t - 1):
+            if arr[i + 1] % arr[i] == 0:
+                arr[i + 1] += 1
+
         print(*arr)
-
-        
-
